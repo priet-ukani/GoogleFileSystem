@@ -1,0 +1,21 @@
+--- Starting GFS Client Simulation ---
+Creating file: test_file_1.txt
+Successfully created test_file_1.txt
+Writing data to test_file_1.txt: 'Hello GFS! This is the first chunk of data.'
+Successfully wrote to test_file_1.txt
+Appending data to test_file_1.txt: ' And this is appended data for the second part.'
+Successfully appended to test_file_1.txt
+Reading content of test_file_1.txt
+Content of test_file_1.txt: ''
+Read content MISMATCH! Expected: 'Hello GFS! This is the first chunk of data. And this is appended data for the second part.', Got: ''
+Creating file: large_test_file.txt
+Successfully created large_test_file.txt
+Writing large data (196608 bytes) to large_test_file.txt
+Successfully wrote large data to large_test_file.txt
+Reading first 64KB of large_test_file.txt
+First 64KB of large_test_file.txt: '...' (truncated for display)
+Partial read content MISMATCH!
+Listing all files:
+  - test_file_1.txt
+  - large_test_file.txt
+--- GFS Client Simulation Complete ---

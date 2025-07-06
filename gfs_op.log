@@ -1,0 +1,7 @@
+{"op": "register_chunk_server", "timestamp": 1751828795.570218, "server_id": "127.0.0.1:50054", "port": 50054, "data_dir": "./chunk_data_2"}
+{"op": "register_chunk_server", "timestamp": 1751828795.5800653, "server_id": "127.0.0.1:50053", "port": 50053, "data_dir": "./chunk_data_1"}
+{"op": "create_file", "timestamp": 1751828805.4330463, "filename": "test_file_1.txt"}
+{"op": "allocate_chunk", "timestamp": 1751828805.4429815, "filename": "test_file_1.txt", "chunk_index": "0", "chunk_handle": "0", "replicas": ["127.0.0.1:50054"]}
+{"op": "update_file_length", "timestamp": 1751828805.456622, "filename": "test_file_1.txt", "length": 47}
+{"op": "create_file", "timestamp": 1751828805.466242, "filename": "large_test_file.txt"}
+{"op": "allocate_chunk", "timestamp": 1751828805.476618, "filename": "large_test_file.txt", "chunk_index": "0", "chunk_handle": "1", "replicas": ["127.0.0.1:50054"]}

@@ -1,0 +1,24 @@
+--- Starting master server on 127.0.0.1:50052 ---
+ * Serving Flask app 'master_server'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:50052
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 140-704-579
+127.0.0.1 - - [06/Jul/2025 19:06:35] "POST /register HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:35] "POST /register HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:40] "POST /heartbeat HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:40] "POST /heartbeat HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "POST /create HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "GET /get_chunk_locations?filename=test_file_1.txt&chunk_index=0 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "GET /get_file_info?filename=test_file_1.txt HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "POST /update_file_length HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "POST /create HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "GET /get_chunk_locations?filename=large_test_file.txt&chunk_index=0 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:45] "GET /ls?path=/ HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:50] "POST /heartbeat HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:06:50] "POST /heartbeat HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:07:00] "POST /heartbeat HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2025 19:07:00] "POST /heartbeat HTTP/1.1" 200 -
